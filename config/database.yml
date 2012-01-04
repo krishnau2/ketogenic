@@ -23,3 +23,4 @@ production:
   database: ketogenic_pro
   username: root
   password: 
+  socket: /tmp/mysql.sock

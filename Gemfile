@@ -10,6 +10,7 @@ gem 'mysql2'
 
 group :production do
 	gem 'pg'
+	 gem 'therubyracer-heroku', '0.8.1.pre3'
 end
 
 # Gems used only for assets and not required

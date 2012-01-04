@@ -8,6 +8,7 @@ development:
   database: ketogenic_dev
   username: root
   password: 
+  pool: 5
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -16,11 +17,12 @@ test:
   adapter: mysql2
   database: ketogenic_test
   username: root
-  password: 
+  password:
+  pool: 5 
 
 production:
-  adapter: mysql2
-  database: ketogenic_pro
-  username: root
-  password: 
-  socket: /tmp/mysql.sock
+  adapter: postgresql
+  database: crngnucmey
+  username: crngnucmey
+  password: dT-86oHAg7bfiS36k75q
+  pool: 5 
